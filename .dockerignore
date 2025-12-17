@@ -1,0 +1,50 @@
+# Build artifacts
+
+build/
+.dart_tool/
+
+# Docker
+
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# IDE
+
+.idea/
+.vscode/
+_.swp
+_.swo
+\*~
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Git
+
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+
+README.md
+DOCKER.md
+\*.md
+
+# Test files
+
+test/
+integration_test/
+
+# CI/CD
+
+.github/
+.gitlab-ci.yml
+
+# Misc
+
+.env
+.env.local
